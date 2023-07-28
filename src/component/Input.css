@@ -1,0 +1,35 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Outfit:wght@100;200;300;400;500;600;800&display=swap');
+
+.inputBox{
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: #f8f8f8;
+}
+.inputBox-field > h1 {
+    font-family: "Montserrat",sans-serif;
+
+}
+
+.inputBox-field > img{
+    width:15%;
+    padding-bottom:40px;
+    padding-top: 20px;
+    margin-left: 160px;
+}
+
+.inputBox-field{
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.12),0 2px 3px rgba(0,0,0,0.12);
+    padding-top: 0;
+    padding-bottom: 50px;
+    margin :20px;
+    display: flex;
+    flex-direction: column;
+}
+
